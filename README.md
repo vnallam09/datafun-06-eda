@@ -3,20 +3,18 @@
 git pull
 ```
 
-## Explore Datasets
+# Dataset: Global Temperature Data
 
-Choose a dataset for analysis.
-You will want a known, clean dataset. 
-Cleaning data can run 60-80% of the project (or more) - you don't need to
-demonstrate cleaning skills for this project.  
-The recommended approach is to select one of the other pre-installed datasets in Seaborn.
-You can view a list of the Seaborn datasets in the first link below. 
-The additional links offer a range of options.
+## Description
+This dataset contains global land and ocean temperature anomalies from 1880 to the present, compiled by NOAA. It is useful for analyzing long-term climate trends and anomalies.
 
-- [List of Seaborn Datasets Installed](https://github.com/mwaskom/seaborn-data)
-- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
-- [Kaggle Datasets](https://www.kaggle.com/datasets)
-- [Data.gov](https://www.data.gov/)
-- [Google Dataset Search](https://datasetsearch.research.google.com/)
+## Source
+[NOAA Global Temperature Dataset - Google Dataset Search](https://www.ncei.noaa.gov/access/monitoring/global-temperature-anomalies)
 
-I would like to use Goodle Dataset Search
+## Format
+- Format: CSV
+- Rows: ~1,700
+- Columns: Year, Mean, Lowess-smoothed, Ocean, Land, etc.
+
+## Intended Use
+I will use this dataset to analyze temperature trends over the last century and visualize climate changes over time using Seaborn and Pandas.
