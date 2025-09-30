@@ -125,6 +125,7 @@ openpyxl
 # Fundamental data manipulation and analysis tools
 numpy
 pandas
+pyarrow
 
 # Data visualization libraries
 matplotlib  # the foundation
@@ -132,3 +133,4 @@ seaborn     # built on top of matplotlib
 
 # general-purpose interactivity library
 ipywidgets  
+jupyterlab
